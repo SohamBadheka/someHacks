@@ -14,11 +14,8 @@ public class consecutiveOnes {
             }
             else{
                 count = 0;
-            }
-                
+            }      
         System.out.println("Maximum consecutive occ of 1's are: "+count);
         }
-
-
     }
 }
