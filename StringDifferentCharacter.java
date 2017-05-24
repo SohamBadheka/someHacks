@@ -1,4 +1,4 @@
-public class Solution {
+public class StringDifferentCharacter {
     public char findTheDifference(String s, String t) {
         // Initialize variables to store sum of ASCII codes for
         // each string
