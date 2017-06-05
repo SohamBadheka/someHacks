@@ -1,5 +1,5 @@
 
-public class consecutiveOnes {
+public class ConsecutiveOnes {
 
     public static void main(String[] args) {
         int a[] = {1,1,1,1,0,1,1,0,1,1};
@@ -14,11 +14,8 @@ public class consecutiveOnes {
             }
             else{
                 count = 0;
-            }
-                
+            }      
         System.out.println("Maximum consecutive occ of 1's are: "+count);
         }
-
-
     }
 }
