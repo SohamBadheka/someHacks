@@ -1,4 +1,4 @@
-public class isSubtreeCheck {
+public class IsSubtreeCheck {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         
       if(isSame(s, t))
