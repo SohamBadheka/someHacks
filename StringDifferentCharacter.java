@@ -7,6 +7,6 @@ public class StringDifferentCharacter {
         for (int i = 0; i < s.length(); ++i) charCodeS += (int)s.charAt(i);
         for (int i = 0; i < t.length(); ++i) charCodeT += (int)t.charAt(i);
         // Return the difference between 2 strings as char
-        return (char)(charCodeT - charCodeS);
+        return (char)(Math.abs(charCodeT - charCodeS));
     }
 }
