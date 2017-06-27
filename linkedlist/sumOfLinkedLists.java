@@ -15,7 +15,7 @@ public class sumOfLinkedLists {
             ln = ln.next;
             reminder = (val1 + val2)/10;
             l1 = l1 == null ? null : l1.next;
-			l2 = l2 == null ? null : l2.next;
+	    l2 = l2 == null ? null : l2.next;
             
         }
         ln.next = reminder == 0 ? null : new ListNode(reminder);
